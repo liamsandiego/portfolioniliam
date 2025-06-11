@@ -19,9 +19,9 @@ function Achievements() {
     {
       title: "With High Honors",
       description: "Reached High Honors during Senior Highschool.",
-      year: "2023",
+      year: "2021",
       icon: "🥇",
-      category: "Competition"
+      category: "Awards"
     },
     {
       title: "Community Service Award",
