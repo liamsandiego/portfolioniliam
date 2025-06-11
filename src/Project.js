@@ -3,22 +3,22 @@ import React from 'react';
 function Projects() {
   const projects = [
     {
-      title: "E-commerce Site",
-      description: "A full-featured e-commerce platform with cart, checkout, and user authentication.",
-      tech: "React",
-      icon: "🛒"
+      title: "Recipe Cooking Site",
+      description: "Just for Cooking.",
+      tech: "Vanilla html",
+      icon: ".😋"
     },
     {
-      title: "Task Manager",
-      description: "A task management app with drag-and-drop and team collaboration features.",
-      tech: "Firebase",
+      title: "Scheduler for Medical Appointment",
+      description: "For my Mom",
+      tech: "Vanilla html",
       icon: "📋"
     },
     {
-      title: "Weather App",
-      description: "Real-time weather application with location-based forecasts and maps.",
-      tech: "JavaScript",
-      icon: "🌤️"
+      title: "Peer Quest (currently working on)",
+      description: "It's a secret",
+      tech: "React",
+      icon: "⭐"
     }
   ];
 

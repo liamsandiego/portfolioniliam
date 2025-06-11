@@ -97,7 +97,7 @@ function PortfolioApp() {
         textAlign: 'center',
         padding: '2rem 0'
       }}>
-        <p>&copy; 2025 John Doe. All rights reserved.</p>
+        <p>&copy; 2025 Mili. All rights reserved.</p>
       </footer>
     </div>
   );
