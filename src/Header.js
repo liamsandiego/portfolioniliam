@@ -38,7 +38,7 @@ function Header() {
             alignItems: 'center',
             gap: '2rem'
           }}>
-            {['Home', 'About', 'Projects', 'Contact'].map((item) => (
+            {['Home', 'About', 'Projects', 'Achievements', 'Contact'].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}

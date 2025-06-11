@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Header from './Header';
 import About from './About';
 import Projects from './Project';
+import Achievements from './Achievements';
 import Contact from './Contact';
 
 function PortfolioApp() {
@@ -88,6 +89,7 @@ function PortfolioApp() {
 
         <About />
         <Projects />
+        <Achievements />
         <Contact />
       </main>
 
