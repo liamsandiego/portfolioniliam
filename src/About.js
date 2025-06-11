@@ -79,7 +79,7 @@ function About() {
                 <p style={{
                   color: '#6b7280'
                 }}>
-                  Bachelor's in Computer Science
+                  Bachelor's in Computer Engineering
                 </p>
               </div>
               <div>
@@ -93,7 +93,7 @@ function About() {
                 <p style={{
                   color: '#6b7280'
                 }}>
-                  5+ Years in Web Development
+                  3+ Years of Front end developing
                 </p>
               </div>
               <div>
@@ -107,7 +107,7 @@ function About() {
                 <p style={{
                   color: '#6b7280'
                 }}>
-                  New York, USA
+                  North Korea
                 </p>
               </div>
               <div>
