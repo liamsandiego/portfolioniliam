@@ -93,7 +93,7 @@ function About() {
                 <p style={{
                   color: '#6b7280'
                 }}>
-                  3+ Years of Front end developing
+                  Frontend & AI
                 </p>
               </div>
               <div>
@@ -107,7 +107,7 @@ function About() {
                 <p style={{
                   color: '#6b7280'
                 }}>
-                  North Korea
+                  Philippines
                 </p>
               </div>
               <div>
@@ -121,7 +121,7 @@ function About() {
                 <p style={{
                   color: '#6b7280'
                 }}>
-                  Freelance & Full-time
+                  Weekends
                 </p>
               </div>
             </div>

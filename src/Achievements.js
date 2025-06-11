@@ -31,7 +31,7 @@ function Achievements() {
       category: "Service"
     },
     {
-      title: "Roblox Developers Reliable Co-developers",
+      title: "Roblox Developers Reliable Co-developer",
       description: "Helped developers make their game unique in their own way.",
       year: "2024",
       icon: "🎮",

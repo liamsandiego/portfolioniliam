@@ -1,4 +1,7 @@
 import React from 'react';
+import facebookImg from './facebook.png'; // Adjust path based on where you put your images
+import youtubeImg from './youtube.png';
+import instagramImg from './instagram.png';
 
 function Contact() {
   return (
@@ -151,7 +154,6 @@ function Contact() {
                 justifyContent: 'center',
                 width: '60px',
                 height: '60px',
-                fontSize: '1.5rem',
                 transition: 'transform 0.3s ease, box-shadow 0.3s ease'
               }}
               onMouseEnter={(e) => {
@@ -163,7 +165,20 @@ function Contact() {
                 e.target.style.boxShadow = 'none';
               }}
             >
-              📘
+              <img 
+                src={facebookImg} 
+                alt="Facebook" 
+                style={{
+                  width: '24px',
+                  height: '24px',
+                  filter: 'brightness(0) invert(1)' // Makes the image white
+                }}
+                onError={(e) => {
+                  // Fallback to emoji if image doesn't load
+                  e.target.style.display = 'none';
+                  e.target.parentNode.innerHTML = '📘';
+                }}
+              />
             </a>
 
             {/* Instagram */}
@@ -182,7 +197,6 @@ function Contact() {
                 justifyContent: 'center',
                 width: '60px',
                 height: '60px',
-                fontSize: '1.5rem',
                 transition: 'transform 0.3s ease, box-shadow 0.3s ease'
               }}
               onMouseEnter={(e) => {
@@ -194,7 +208,20 @@ function Contact() {
                 e.target.style.boxShadow = 'none';
               }}
             >
-              📷
+              <img 
+                src={instagramImg} 
+                alt="Instagram" 
+                style={{
+                  width: '24px',
+                  height: '24px',
+                  filter: 'brightness(0) invert(1)' // Makes the image white
+                }}
+                onError={(e) => {
+                  // Fallback to emoji if image doesn't load
+                  e.target.style.display = 'none';
+                  e.target.parentNode.innerHTML = '📷';
+                }}
+              />
             </a>
 
             {/* YouTube */}
@@ -213,7 +240,6 @@ function Contact() {
                 justifyContent: 'center',
                 width: '60px',
                 height: '60px',
-                fontSize: '1.5rem',
                 transition: 'transform 0.3s ease, box-shadow 0.3s ease'
               }}
               onMouseEnter={(e) => {
@@ -225,7 +251,20 @@ function Contact() {
                 e.target.style.boxShadow = 'none';
               }}
             >
-              📺
+              <img 
+                src={youtubeImg} 
+                alt="YouTube" 
+                style={{
+                  width: '24px',
+                  height: '24px',
+                  filter: 'brightness(0) invert(1)' // Makes the image white
+                }}
+                onError={(e) => {
+                  // Fallback to emoji if image doesn't load
+                  e.target.style.display = 'none';
+                  e.target.parentNode.innerHTML = '📺';
+                }}
+              />
             </a>
           </div>
         </div>
